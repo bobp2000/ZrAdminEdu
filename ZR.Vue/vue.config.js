@@ -34,19 +34,19 @@ module.exports = {
   // webpack-dev-server 相关配置
   devServer: {
     host: '0.0.0.0', //项目启动host
-    port: 8887, // 项目启动port,
+    port: 9887, // 项目启动port,
     open: true,
     proxy: {
       // detail: https://cli.vuejs.org/config/#devserver-proxy
       [process.env.VUE_APP_BASE_API]: {
-        target: 'http://localhost:8888/', // 后端接口地址
+        target: 'http://localhost:9888/', // 后端接口地址
         changeOrigin: true,
         pathRewrite: {
           ['^' + process.env.VUE_APP_BASE_API]: '' //需要rewrite的
         }
       },
 			"msgHub": {
-				target: 'http://localhost:8888/msgHub',
+				target: 'http://localhost:9888/msgHub',
 				ws: true,
 				changeOrigin: true,
 				pathRewrite: {
