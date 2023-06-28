@@ -1,4 +1,4 @@
-<h2 align="center"> ZR.Admin.NET后台管理系统</h2>
+<h2 align="center"> ZR.AdminEdu.NET后台管理系统</h2>
 <h4 align="center">基于.NET5/.Net7 + vue2.x/vue3.x/uniapp前后端分离的.net快速开发框架</h4>
 
 <p align="center">
